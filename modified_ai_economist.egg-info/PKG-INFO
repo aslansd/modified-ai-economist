@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: modified-ai-economist
+Version: 1.1.0
+Summary: Modified AI-Economist: A Multi-agent Reinforcement Learning Study of Social Welfare and Fairness under Libertarian and Utilitarian Systems
+Home-page: https://github.com/aslansd/modified-ai-economist
+Author: Aslan Satary Dizaji
+Author-email: asataryd@umich.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+# Modified AI-Economist
+
+## My Long-term Research Plan Using Multi-agent Reinforcement Learning for Economics and Neuroscience
+
+A society is composed of many individual entities including humans, organizations, institutions, a govern- ment, and their ecological environment. Their interactions with each other generate a prosperous or poor, an equal or unequal, and a moral or immoral society. One of the most fascinating question in science is that what are the causes and roots of these phenomena in our immediate or distant social surroundings and how we can move toward a better future. While experimental investigations of this topic is valuable, I argue that it is expensive and time-consuming. On the other hand, until very recently, computer simulations have not provided a realistic picture of micro- and macro-foundations of societal processes. I believe this has changed recently due to introduction of more realistic multi-agent reinforcement learning (MARL) environments to simulate actual social, cultural, and economical processes. The most important feature of these new environments is that they can independently produce curriculum for learning which is called Autocurricula. Autocurricula refers to chal- lenges that arise naturally due to interactions among agents and between agents and their changing environment which agents must adapt accordingly (Leibo et al. (2019)).
+
+Particularly, MARL Autocurricula has four distinctive features. First, it has a capacity to produce con- tinuously natural challenges through interactions among agents belonging to the same team (cooperation) or different teams (competition) and between them and their changing environment which require lifelong learning to innovate and adapt continuously. Second, the agents require to learn behavioral strategies using partial in- formation from their environment - which they could be framed as graded cooperative or competitive strategies based on their end results - and their spatially and temporally extended sequential implementations. Third, there might be multiple cooperative or competitive behavioral strategies to overcome upcoming challenges with various levels of implementation difficulty or cost. Fourth, the agentsâ€™ spatially and temporally extended be- haviors and their representations inside their internal multi-layer neural networks are available for inspection by experimenters. This is valuable particularly due to similarity between the representations of deep neural networks and actual human brains (Richards et al. (2019)). These four features make MARL Autocurricula particularly more powerful than classical evolutionary game theory and agent-based models to simulate simul- taneously human behaviors and brains (Eccles et al. (2019); Hughes et al. (2018); Johanson et al. (2022); KÃ¶ster et al. (2020, 2022); Leibo et al. (2017, 2019, 2021); McKee et al. (2021); Perolat et al. (2017); Vinitsky et al. (2021); Wang et al. (2019)).
+
+Moreover, MARL Autocurricula has been used to build a synthetic homo economicus - machina economicus (Parkes and Wellman (2015)) - in a number of interesting areas in economics and public policy. As an instance, the recently introduced AI-Economist framework (Trott et al. (2021); Zhang et al. (2022); Zheng et al. (2022)) - based on two-level deep RL for two sets of agents - has been applied to mechanism design problems in economics. In this framework, one single agent is a rational social planner who designs a particular mechanism or policy generally having a goal of optimizing a particular kind of social welfare functions in the society. The other agents are a set of rational economic agents who behave in response to the implemented mechanism or policy generally following their own self-interest. This framework has been used to model the tax-gaming behavior of agents - optimizing their labors, trading, and building, while the central social planner maximizes productivity or equality in the society (Zheng et al. (2022)). Specifically, the agents in the Gather-Trade-Build environment of the AI-Economist make efforts to move, gather wood and stone from the environment, trade them with each other via double-auctions using coins as a mean of exchange, and finally - contingent on their build-skill - build houses to earn incomes. On the other hand, the social planner aims to find an optimized taxing schedule to increase productivity or equality in the society. Moreover, the AI-Economist framework has been used to model the effects of the US statesâ€™ and Federalâ€™s COVID-19 policies on public health and social welfare in the society (Trott et al. (2021)). Furthermore, more recently, it has been suggested that the AI-Economist can be used to model the climate change negotiations among different countries to mitigate its adverse environmental effects and to improve long-term economic growth (Zhang et al. (2022)). As it is mentioned, the most important feature of the AI-Economist is its two-level deep RL which makes it very suitable for real world applications in economic mechanism design (by the Prize Committee of the Royal Swedish Academy of Sciences (2007); Maskin (2008); Tadelis (2013)).
+
+Beside the AI-Economist, there are at least two other major MARL frameworks. The OpenAIâ€™s multi-agent emergence environment is particularly a suitable framework for MARL Autocurricula (Baker (2020); Baker et al. (2020)). One important feature of Autocurricula is that besides elementary actions, the agents must learn most of the rules of the environment from scratch which has impacts on their spatially and temporally extended strategies. As an instance, in the hide-and-seek game in the OpenAIâ€™s multi-agent emergence environment, while the agents are only equipped with primary actions, such as moving in four directions or grabbing and locking objects, there are at least six different stages in the game due to arising of six different relatively complex strategies taken by hiders and seekers in which each team is sharing its own collective reward (Baker et al. (2020)). Another framework for MARL Autocurricula is DeepMindâ€™s Melting Pot which builds a unified environment for a diverse set of social dilemmas measuring a diverse range of social intelligence (Leibo et al. (2021); Johanson et al. (2022)). While both OpenAIâ€™s and DeepMindâ€™s MARL frameworks are very useful for Autocurricula experiments, due to lack of two-level deep RL, using them in the real world applications of economic mechanism design is challenging. Furthermore, any mechanism - norm or institution - designed by the rational social planner and imposed on the rational economic agents is going to have long-term impacts on the culture of a society through cultural evolution. One interesting question which can be possibly answered by MARL Autocurricula is that where and how moral values - such as fairness and cooperativeness - arise from the interactions among rational economic agents and between them and the rational social planner. Particularly, one-shot in-silico behavioral experiments are suitable to elicit social preferences of agents to find an answer to this question (Leibo et al. (2021); KÃ¶ster et al. (2022)). Overall, with MARL, it is possible to perform in-silico experimental economics which would be otherwise costly and time-consuming if they are performed by modeling and experimenting in the lab or the field.
+
+Furthermore, there is an interesting debate between libertarianism or procedural theories of justice and utilitarianism or consequentialist theories of justice in welfare economics (Sen (2017)). While the latter insists on the important role of a central planner to determine what is just or unjust in the society, the former emphasizes on the peopleâ€™s freedom to choose what is just or unjust for them. Thus what is the best possible role can be defined for a central social planner in a society? Should it only passively determine the tax rates but let the agents decide individually how much to invest their taxes on different economic sectors - more or less similar to libertarian tradition - or should it actively determine the tax rates, collect and invest them on various economic sectors - more or less similar to utilitarian tradition. In this long-term plan, I intend to provide, at least, some partial answers to this kind of big questions in social sciences and economics by increasing the complexity of the original framework of the Gather-Trade-Build environment of the AI-Economist. Also, beside using MARL for in-silico experimental economics, I suggest to use it as an in-silico setup for psychology, ethology, or neuroscience related questions by providing a substrate to relate the activation of deep neural networks of the agents to their behaviors, to relate the dimensionality of their behaviors to their habitual or explorative actions, and finally to measure their sense of agency through their causal influence on their own actions. Moreover, I touch upon a possible technical contribution which could be performed with MARL for developing better action abstraction algorithms for moral behaviors in RL.
+
+<p align="center">
+  <img width="800" src="figs/Slide_001.jpeg" />
+</p>
+
+As a first project in this area, inspired by welfare economics and using in-silico MARL experiments, I intend to answer the following five specific questions. The first three ones could be framed as big questions in science and can be recurring themes in my other projects in this area:
+
+1. Big Questions:
+
+- Origin of Prosperity and Growth: What are the determinants of prosperous or poor society? As it is argued (Acemoglu and Robinson (2012)), do the geography hypothesis such as the effects of climate and natural resources, the culture hypothesis such as the effects of ethnicity or religion, and the ignorance hypothesis such as the lack of knowledge among leaders, determine the future of a society, or man-made institutions cause divergence in societies regarding prosperity or poverty? Moreover, does democracy cause growth, inequality, or social mobility? In Section 5 of this proposal, using the modified version of the AI-Economist, I suggest a few computational experiments to test these hypotheses.
+
+<p align="center">
+  <img width="800" src="figs/Slide_002.jpeg" />
+</p>
+
+- Origin of Inequality (Fairness of the System): What is the root of inequality - fairness of the system towards individual members - in a society, considering the fact that an inequality is justified if it is based on a common utility (Piketty (2014))? For example, regarding tax system, are the due taxes of agents fair considering their individual capabilities and contributions in a society? In Section 6 of this proposal, by borrowing concepts from coalitional game theory, specifically Shapley value (Covert et al. (2021); Shoham and Leyton-Brown (2009)), I suggest a way to quantify a fair contribution of the agents in the society considering their capabilities, votes, and due taxes to test this hypothesis.
+
+<p align="center">
+  <img width="800" src="figs/Slide_003.jpeg" />
+</p>
+
+- Origin of Morality (Fairness of the Agents): What is the root of morality - how agents learn or develop moral or fair behaviors toward each other? What kind of society would be the product of a libertarian passive social planner compared to a utilitarian active central planner? Do the agents will be more moral and fair in the libertarian society compared to the utilitarian one? To answer this question, I use a metric - inequity aversion as a signature of fairness (Camerer (2003); Fehr and Schmidt (1999); Hughes et al. (2018)) - to quantify the fairness of the agents trained under libertarian system versus the agents trained under utilitarian system. I explain this topic in Section 7 of this proposal.
+
+<p align="center">
+  <img width="800" src="figs/Slide_004.jpeg" />
+</p>
+
+2. In-silico Psychology/Ethology/Neuroscience: The policy network of the RL agents of the AI- Economist could be composed of a LSTM recurrent neural network which has a hidden state. The LSTM selectively memorizes the relevant events from the past to solve the task (Schmidhuber (2014)) and its hidden state carries information about those events. In Section 8 of this proposal, I argue that these hidden states could be possibly used as a correlate of the agentsâ€™ behaviors. For example, they can be used to check whether the agents cast vote sincerely or strategically, or they can be used to distinguish the behaviors of poor agents compared to more wealthier ones. Another measure to distinguish poor versus wealthier agents is to characterize their habitual versus their explorative behaviors through calculating the dimensionality of their behaviors (Bialek (2022)). Furthermore, in the same section, I suggest to quantify the sense of agency of agents (Legaspi et al. (2019)) through calculating their causal influence on their own actions in different environments.
+
+<p align="center">
+  <img width="800" src="figs/Slide_005.jpeg" />
+</p>
+
+3. Technical Contribution: Finally, if we consider inequity aversion as an abstract representation of moral - fair or cooperative - behaviors, in Section 9 of this proposal, I provide preliminary thoughts and discuss possible modifications to established algorithms in this area (Abel (2020)), so they can be used as action abstraction algorithms in RL for moral behaviors. Particularly, I hypothesize about one distinguishing feature of action abstraction algorithms for behaviors with more moral content compared to behaviors with less moral attributes.
+
+<p align="center">
+  <img width="800" src="figs/Slide_006.jpeg" />
+</p>
+
+Broadly speaking, beside providing partial answers to the above three big questions and contributing to other two areas, I believe the simulation environments of MARL are the best computational setups to perform in- silico experimental economics and possibly in-silico psychology/ethology/neuroscience research which would be otherwise time-consuming and expensive.
+
+## Installation Instructions
+
+To get started, you'll need to have Python 3.7+ installed to install this package from the source:
+
+1. Clone this repository to your local machine:
+
+ ```
+   git clone www.github.com/aslansd/modified-ai-economist
+ ```
+
+2. Create a new conda environment (named "modified-ai-economist" below - replace with anything else) and activate it:
+
+```pyfunctiontypecomment
+   conda create --name modified-ai-economist
+   conda activate modified-ai-economist
+```
+
+3. Install as an editable Python package
+
+```pyfunctiontypecomment
+   cd modified-ai-economist
+   pip install -e .
+```
+
+## Testing your Install
+
+To test your installation, try running:
+
+```
+conda activate modified-ai-economist
+python -c "import modified_ai_economist"
+```
+
+## References:
+- Abel, D. (2020). A theory of abstraction in reinforcement learning. PhD Thesis.
+- Acemoglu, D. and Robinson, J. A. (2012). Why nations fail. Book.
+- Baker, B. (2020). Emergent reciprocity and team formation from randomized uncertain social preferences. NeurIPS.
+- Baker, B., Powell, G., Kanitscheider, I., Markov, T., Wu, Y., McGrew, B., and Mordatch, I. (2020). Emergent tool use from multi-agent autocurricula. ICLR.
+- Bialek, W. (2022). On the dimensionality of behavior. Proc. Natl. Acad. Sci.
+- by the Prize Committee of the Royal Swedish Academy of Sciences, C. (2007). Mechanism design theory.
+Scientific background on the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2007.
+- Camerer, C. F. (2003). Behavioral game theory: Experiments in strategic interaction. Book.
+- Covert, I. C., Lundberg, S., and Lee, S.-I. (2021). Explaining by removing: A unified framework for model explanation. Journal of Machine Learning Research.
+- Eccles, T., Hughes, E., KramÃ¡r, J., Wheelwright, S., and Leibo, J. Z. (2019). Learning reciprocity in complex sequential social dilemmas. ArXiv.
+- Fehr, E. and Schmidt, K. M. (1999). A theory of fairness, competition, and cooperation. The Quarterly Journal of Economics.
+- Hughes, E., Leibo, J. Z., Phillips, M., Tuyls, K., Edgar DueÃ±ez-Guzman, A. G. C., Dunning, I., Zhu, T., McKee, K., Koster, R., Roff, H., and - Graepel, T. (2018). Inequity aversion improves cooperation in intertemporal social dilemmas. NeurIPS.
+- Johanson, M. B., Hughes, E., Timbers, F., and Leibo, J. Z. (2022). Emergent bartering behaviour in multi-agent reinforcement learning. DeepMind.
+- KÃ¶ster, R., Hadfield-Menell, D., Everett, R., Weidinger, L., Hadfield, G. K., and Leibo, J. Z. (2022). Spurious normativity enhances learning of compliance and enforcement behavior in artificial agents. Proc. Natl. Acad. Sci.
+- KÃ¶ster, R., McKee, K. R., Everett, R., Weidinger, L., Isaac, W. S., Hughes, E., DuÃ©Ã±ez-GuzmÃ¡n, E. A., Graepel, T., Botvinick, M., and Leibo, J. Z. (2020). Model-free conventions in multi-agent reinforcement learning with heterogeneous preferences. DeepMind.
+- Legaspi, R., He, Z., and Toyoizumi, T. (2019). Synthetic agency: sense of agency in artificial intelligence. Current Opinion in Behavioral Sciences.
+- Leibo, J. Z., Duenez-Guzman, E., Vezhnevets, A. S., John P. Agapiou, P. S. R. K., Matyas, J., Beattie, C., Mordatch, I., and Graepel, T. (2021). Scalable evaluation of multi-agent reinforcement learning with melting pot. ICML.
+- Leibo, J. Z., Hughes, E., Lanctot, M., and Graepel, T. (2019). Autocurricula and the emergence of innovation from social interaction: A manifesto for multi-agent intelligence research. DeepMind.
+- Leibo, J. Z., Zambaldi, V., Lanctot, M., Marecki, J., and Graepel, T. (2017). Multi-agent reinforcement learning in sequential social dilemmas. International Conference on Autonomous Agents and Multiagent Systems.
+- Maskin, E. S. (2008). Mechanism design how to implement social goals. American Economic Review.
+- McKee, K. R., Hughes, E., Zhu, T. O., Chadwick, M. J., Raphael Koster, A. G. C., Beattie, C., Graepel, T., Botvinick, M., and Leibo, J. Z. (2021). Deep reinforcement learning models the emergent dynamics of human cooperation. DeepMind.
+- Parkes, D. C. and Wellman, M. P. (2015). Economic reasoning and artificial intelligence. Science.
+- Perolat, J., Beattie, C., Leibo, J. Z., Tuyls, K., Zambaldi, V., and Graepel, T. (2017). A multi-agent reinforcement learning model of common-pool resource appropriation. NeurIPS.
+- Piketty, T. (2014). Capital in the twenty-first century. Book.
+- Richards, B. A., Lillicrap, T. P., Beaudoin, P., Bengio, Y., Bogacz, R., Christensen, A., Clopath, C., Costa, R. P., de Berker, A., Ganguli, S., Gillon, C. J., Hafner, D., Kepecs, A., Kriegeskorte, N., Latham, P., Lindsay, G. W., Miller, K. D., Naud, R., Pack, C. C., Poirazi, P., Roelfsema, P., Sacramento, J., Saxe, A., Scellier, B., Schapiro, A. C., Senn, W., Wayne, G., Yamins, D., Zenke, F., Joel Zylberberg, D. T., and Kording, K. P. (2019). A deep learning framework for neuroscience. Natue Neuroscience.
+- Schmidhuber, J. (2014). Deep learning in neural networks: An overview. ArXiv.
+- Sen, A. (2017). Collective choice and social welfare. Book.
+- Shoham, Y. and Leyton-Brown, K. (2009). Multi-agent systems: Algorithmic, game-theoretic, and logical foundations. Book.
+- Tadelis, S. (2013). Game theory: An introduction. Book.
+- Trott, A., Srinivasa, S., van der Wal, D., Haneuse, S., and Zheng, S. (2021). Building a foundation for data-driven, interpretable, and robust policy design using the ai economist. ArXiv.
+- Vinitsky, E., KÃ¶ster, R., Agapiou, J. P., DuÃ©Ã±ez-GuzmÃ¡n, E., Vezhnevets, A. S., and Leibo, J. Z. (2021). A learning agent that acquires social norms from public sanctions in decentralized multi-agent settings. DeepMind.
+- Wang, J. X., Hughes, E., Fernando, C., Czarnecki, W. M., DuÃ©Ã±ez-GuzmÃ¡n, E. A., and Leibo, J. Z. (2019). Evolving intrinsic motivations for altruistic behavior. International Conference on Autonomous Agents and Multiagent Systems.
+- Zhang, T., Williams, A., Zhang, Y., Gupta, P., Bengio, Y., Phade, S., Srinivasa, S., and Zheng, S. (2022). Modelling global climate negotiations and cooperation in rice-n. Salesforce.
+- Zheng, S., Trott, A., Srinivasa, S., Parkes, D. C., and Socher, R. (2022). The ai economist: Taxation policy design via two-level deep multiagent reinforcement learning. Science Advances.
