@@ -2,7 +2,7 @@
 
 ## Project 1: A Multi-agent Reinforcement Learning Study of Libertarian and Utilitarian Governing Systems
 
-- [The Paper](https://drive.google.com/file/d/1Wob_XwMJ7cINA0jjFU1ylIo5w3o57thH/view?usp=share_link)
+- [The Paper](https://drive.google.com/file/d/12KVWqOAMNX6rmr8xh0K8hlTKfPps3Bj-/view?usp=drive_link)
 - [The Results](https://github.com/aslansd/modified-ai-economist/tree/main/tutorials/Results%20(Project%201))
 - [The Notebook for the Full-Libertarian Governing System](https://github.com/aslansd/modified-ai-economist/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_libertarian_and_utilitarian_governing_systems_RLlib_FullLibertarian.ipynb)
 - [The Notebook for the Semi-Libertarian/Utilitarian Governing System](https://github.com/aslansd/modified-ai-economist/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_libertarian_and_utilitarian_governing_systems_RLlib_SemiLibertarianUtilitarian.ipynb)
@@ -19,7 +19,7 @@ paper adds to the growing literature of the application of multi-agent reinforce
 
 ## Project 2: A Multi-agent Reinforcement Learning Study of Emergence of Social Classes out of Arbitrary Governance: The Role of Environment
 
-- [The Paper](https://drive.google.com/file/d/1va5gMq39Of3mky0ZJa7jyW6ymrOXMRjD/view?usp=share_link)
+- [The Paper](https://drive.google.com/file/d/1T2ukmEeNB9NaML5fAQqTGgche6H6UOF1/view?usp=drive_link)
 - [The Results](https://github.com/aslansd/modified-ai-economist/tree/main/tutorials/Results%20(Project%202))
 - [The Notebook for the Band-like Environment](https://github.com/aslansd/modified-ai-economist/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_emergence_of_social_classes_out_of_arbitrary_governance_the_role_of_environment_RLlib_Band.ipynb)
 - [The Notebook for the Uniform Environment](https://github.com/aslansd/modified-ai-economist/blob/main/tutorials/a_multi-agent_reinforcement_learning_study_of_emergence_of_social_classes_out_of_arbitrary_governance_the_role_of_environment_RLlib_Uniform.ipynb)
